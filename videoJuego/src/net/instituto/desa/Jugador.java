@@ -19,4 +19,19 @@ public class Jugador {
 		this.x = x;
 	}
 
+	public void movimientoDerecha() {
+		this.x++;
+	}
+	
+	public void movimientoIzquierda() {
+		this.x--;
+	}
+
+	public void movimientoArriba() {
+		this.y--;
+	}
+
+	public void movimientoAbajo() {
+		this.y++;
+	}
 }
